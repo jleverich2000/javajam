@@ -1,0 +1,69 @@
+<!--Jolleen Leverich
+    CIS-205
+	May 5, 2016
+	Final Project-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>JavaJam Coffee House</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="javaJam.css" media="screen">
+<link rel="stylesheet" href="JavaJamPrint.css" media="print">
+<!--[if 1t IE 9]>
+<script scr="http://html5shim.googlecode.com/svn/trunk/html5.js">
+</script>
+<![endif]-->
+</head>
+<body>
+<div id="demo">
+<div id="wrapper">
+<header>
+<h1>JavaJam Coffee House</h1>
+</header>
+<nav>
+<ul class="clean">
+<li><a href="index.html">Home</a></li>
+<li><a href="menu.html">Menu</a></li>
+<li><a href="music.html">Music</a></li>
+<li><a href="shop.html">Gear</a></li>
+<li><a href="jobs.html">Jobs</a></li>
+</ul>
+</nav><!-- end nav-->
+<main>
+<p>Want to work at JavaJam? Fill out the form below to start your application. Required fields are marked with an asterisk (*).</p>
+  <form method="post" onsubmit="return validateForm();" action="http://webdevbasics.net/scripts/javajam.php">
+	    <label for="myName">*Name</label>
+	<input type="text" name="myName" id="myName" required="required"><br>
+	    <label for="myPhone">*Phone</label>
+	<input type="tel" name="myPhone" id="myPhone" required="required"><br>
+        <label for="myPhone">*E-mail</label>
+	<input type="email" name="myEmail" id="myEmail" required="required"><br>
+        <label for="myExperience">*Experience</label>
+	<textarea name="myExperience" id="myExperience" rows="2" cols="20"></textarea>
+    <input id="mySubmit" type="submit" value="Apply Now" required="required">	
+</form><br>
+<img src="br.jpg" alt="Barisa" width="500" height="300">
+</main><!-- end main-->
+<div id="contact">
+	12312 Main Street<br>
+	Mountain Home, CA 93923<br>
+ <a id="mobile" href="tel:888-555-5555">888-555-5555</a>
+ <span id="desktop">888-555-5555</span>
+</div><!-- end contact-->
+</div><!-- end wrapper-->
+</div><!--end demo-->
+<footer>
+	Coptright &copy; 2014 JavaJam Coffee House<br>
+<a href="mailto:jleverich2000@gmail.com">jleverich2000@gmail.com</a>
+<div id="lastmod">
+<h3>This page was last modified on:
+<script>
+   document.write(document.lastModified);
+</script>
+</h3>
+</div><!-- end lastmod-->
+</footer>
+</body>
+
+</html>

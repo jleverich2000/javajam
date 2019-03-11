@@ -1,0 +1,207 @@
+header{ border-style: solid;
+        border-color: brown;
+        background-color:#5a2d0c;
+	    padding: 5px;
+        margin: 0;
+        text-align: center;
+}
+h1{ padding: 5px;
+    margin: 0;
+    background-color: #f9e2d2;
+}
+nav { display: inline;
+	  text-align:left;
+	  float:left;
+	  padding: 5px;
+      margin: 0;
+      height: 78.80%;
+      width:19%;
+	  text-decoration: none;
+	  list-style: none;
+}
+main{ float: right;
+	  height: 80%;
+	  width: 80%;
+}
+body { background-image: url(matte.jpg);
+       background-color: #f9e2d2;
+       background-repeat: no-repeat;
+	   color: #660000;
+       font: Verdana, Arial, sans-serif;
+       padding: 10px 20px 30px 20px;
+       margin-left: auto;
+       margin-right: auto;
+	   font-size:1.2em;
+	   overflow: auto;
+}
+#wrapper { width: 65%;
+           margin-right: auto;
+		   margin-left: auto;
+		   height: 850px;
+}
+footer { text-align: center;
+         width: 65%;
+         margin-right: auto;
+		 margin-left: auto;
+		 font-style: italic;
+		 font-size: 0.75em;
+		 padding:10px;
+}
+#contact { height: 15%;
+		   text-align: center;
+		   width: 60%;
+		   margin-right: auto;
+		   margin-left: auto;
+		   padding: 0px;
+}
+.clean{
+	text-decoration: none;
+	list-style-type: none;
+	
+	
+}
+nav a { text-decoration: none;
+        padding: 20px;
+		display: block;
+		border-bottom: 1px solid #ffffff;
+		background-image: url(8.jpg);
+		background-repeat: no-repeat;
+}
+audio { display: block;
+        margin-top: 1em;
+}
+nav ul { list-style-type: none; 
+}
+tr:nth-of-type(even) { background-color: #eda978;
+}
+label { float:left;
+        display: block;
+		width: 8em;
+		padding-right: 20px; 
+}
+input { display: block; 
+}
+textarea { display: block;
+           margin-bottom: 1em; 
+}
+#mobile { display: none; 
+}
+#desktop { display: inline; 
+}
+#demo { display:  -webkit-flex;
+        display: flex;
+	    -webkit-flex-direction: row;
+		flex-direction: row; 
+}
+nav { -webkit-flex: 3;
+      flex: 3; 
+}
+main { -webkit-flex: 7;
+       flex: 7; 
+}
+
+@media only screen and (max-width: 1024px) {
+#demo { -webkit-flex-direction: column;
+	    flex-direction: column; 
+}
+nav ul { display: -webkit-flex;
+	     display: flex;
+	    -webkit-flex-direction: row;
+		-webkit-justify-content: center;
+	    justify-content: center;  
+}
+body { margin: 0;
+	       padding: 0;
+}
+#wrapper { width: auto;
+	       margin: 0;
+		   box-shadow: none; 
+}
+h1 { margin: 0; 
+}
+nav { float: none;
+	  width: auto;
+	  padding: 0;
+      display: inline;	
+      background-image: none;		 
+}
+nav li { display: inline-block;
+         background-image: none;	 
+}
+nav a { padding: 1em;
+        display: inline; 
+}
+main { float: none;
+       padding: 1em;
+       margin-left: 0;
+	   font-size: 90%; 
+	   height: auto;
+}
+footer { display: none;
+}
+#details { padding-left: 0;
+           padding-right: 0;
+}
+img { max-width: 90%;
+	  height: auto; 
+}
+#contact { height: auto;
+}
+}
+
+@media only all and (max-width: 768px) {
+h1 { height: 100%;
+	 font-size: 1.5em;
+     padding-left: 0.3em; 
+}
+nav { padding: 0; 
+	  background-image: none;
+	  -webkit-order: 1;
+	  order: 1; 
+}
+table { width: 100%;
+	    margin-right: auto;
+	    margin-left: auto; 
+}
+#wrapper { width: 100%;
+	       margin-right: auto;
+		   margin-left: auto; 
+}
+nav a { display: inline;
+	    padding: 0.2em;
+	    font-size: 1.3em; 
+	    border-bottom: 1px;
+		border-bottom-color: #330000; 
+		background-image: none;	
+}
+nav ul { -webkit-flex-wrap: wrap;
+	     flex-wrap: wrap;
+	     margin: 0;
+	     padding: 0; 
+}
+nav li { display: inline; 
+	     margin: 0;
+		 padding: 0; 
+	     background-image: none;	
+}
+img  { max-width: 90%;
+	   height: auto; 
+}
+main { margin-right: auto;
+	   margin-left: auto;
+	   padding-top: 0.1em;
+	   padding-right: 0;
+	   padding-bottom: 0.1em; 
+	   padding-left:0; 
+}
+#lastmod { display: none;
+}
+main ul { list-style-position: outside; 
+}
+#mobile { display: inline; 
+}
+#desktop { display: none;
+}
+audio { width: 80%; 
+}		   
+}
